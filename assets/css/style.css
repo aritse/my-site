@@ -14,10 +14,22 @@
   background-image: url(../images/bg.png);
 }
 
+.jumbotron {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
 /* Media Queries */
 /* Rules when width <= 768px */
 @media screen and (max-width: 768px) {
-  #nav {
-    text-align: center !important;
+  #nav > div {
+    justify-content: center !important;
+  }
+}
+
+/* Rules when width > 768px */
+@media screen and (min-width: 768px) {
+  #content {
+    padding: 0;
   }
 }
