@@ -9,3 +9,15 @@
 .my-col {
   border: 1px solid blue;
 }
+
+#body {
+  background-image: url(../images/bg.png);
+}
+
+/* Media Queries */
+/* Rules when width <= 768px */
+@media screen and (max-width: 768px) {
+  #nav {
+    text-align: center !important;
+  }
+}
