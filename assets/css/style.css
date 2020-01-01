@@ -11,7 +11,8 @@ h1 {
 }
 
 .jumbotron {
-  margin-top: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
   padding: 2rem;
 }
 
@@ -23,9 +24,6 @@ h1 {
 
 footer {
   padding-top: 1rem;
-}
-
-#my-footer {
   border-top: 8px solid #17a2b8;
 }
 
@@ -45,11 +43,30 @@ hr {
   border-bottom: 2px solid #cccccc;
 }
 
+p {
+  line-height: 2.5rem;
+}
+
+#my-footer > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* Media Queries */
 /* Rules when width <= 768px */
 @media screen and (max-width: 768px) {
   #nav > div {
     justify-content: center !important;
+  }
+
+  #my-photo {
+    width: 50%;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    line-height: 1.5rem;
   }
 }
 
